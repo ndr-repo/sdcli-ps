@@ -1,17 +1,17 @@
-## sdcli-ps - Subbdom CLI for PowerShell
+# sdcli-ps - Subbdom CLI for PowerShell
 
-### Quickstart
+## Quickstart
 - Add the sdcli folder to environment variables/PATH
 - Add your API key to sdcli/key.txt
 
-### Usage
+## Syntax
 
-- Printing to stdout (for usage in scripts)
+### Print to stdout (for usage in scripts)
 ```
-sdcli  <target-domain> -
+sdcli <target-domain> -
 ```
 
-- Logging results to file
+### Log results to file
 ```
 sdcli <target-domain> <result-filename.extension>
 ```
