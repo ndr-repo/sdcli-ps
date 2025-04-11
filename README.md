@@ -5,13 +5,6 @@
 - Add your API key to sdcli/key.txt
 
 ## Syntax
-
-### Print to stdout (for usage in scripts)
-```
-sdcli <target-domain> -
-```
-
-### Log results to file
 ```
 sdcli <target-domain> <result-filename.extension>
 ```
