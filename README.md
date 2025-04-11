@@ -4,7 +4,7 @@
 - Add the sdcli folder to environment variables/PATH
 - Add your API key to sdcli/key.txt
 
-## Syntax
+## Usage Syntax
 ```
 sdcli <target-domain> <result-filename.extension>
 ```
