@@ -3,9 +3,13 @@
 ## Quickstart
 ```
 git clone https://github.com/ndr-repo/sdcli-ps.git
+powershell -noexit -ExecutionPolicy Bypass -File <path-to-sdcli.ps1>
+powershell -noexit -ExecutionPolicy Bypass -File <path-to-sdcli-stdout.ps1>
 ```
 - Add the sdcli folder to environment variables/PATH
 - Add your API key to sdcli/key.txt
+- Set the execution policy to allow running sdcli & sdcli-stdout
+
 
 ## Usage Syntax
 ```
